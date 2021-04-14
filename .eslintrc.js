@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2021-04-08 15:00:16
+ * @LastEditTime: 2021-04-08 18:04:37
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \vue_salesforce_project\.eslintrc.js
+ */
 // https://eslint.org/docs/user-guide/configuring
 
 module.exports = {
@@ -24,6 +32,7 @@ module.exports = {
     // allow async-await
     'generator-star-spacing': 'off',
     // allow debugger during development
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'indent': 0 
   }
 }
